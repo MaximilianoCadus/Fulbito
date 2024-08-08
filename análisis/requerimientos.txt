@@ -1,0 +1,21 @@
+Funcionales
+-El sistema debe registrar usuarios.
+-El sistema debe brindar la opción de reservar canchas de fútbol.
+-El sistema debe permitir editar el perfil del usuario.
+-El sistema debe mostrar los distintos predios.
+-El sistema debe mostrar las distintas canchas de fútbol.
+-El sistema ofrece distintos medios de pagos.
+-El sistema debe permitir filtrar tipos de canchas de fútbol, predios, zonas.
+-El sistema debe permitir cancelar la reserva.
+-El sistema debe enviar un correo al cliente que realizó la reserva con los detalles de la misma.
+-El sistema debe enviar un correo al cliente pidiendo una valoración sobre el servicio. 
+
+No funcionales
+-Que la aplicación tenga un tiempo de respuesta óptimo.
+-Que la aplicación tenga una interfaz intuitiva.
+-Que el sistema tenga autenticación de usuarios.
+
+De dominio
+-Los usuarios van a tener distintos roles (clientes y empresas)
+-Los clientes van a poder reservar canchas de fútbol.
+-Las empresas van a poder publicar sus canchas de fútbol.

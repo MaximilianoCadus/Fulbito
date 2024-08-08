@@ -1,0 +1,17 @@
+Hecho
+-Al momento de confirmar la reserva, el cliente debe pagar una seña.
+-El cliente puede realizar más de una reserva.
+-Para acceder a la cancha, un jugador debe mostrar el QR enviado en la reserva de la misma.
+
+Restricciones
+-No se podrán cancelar las reservas que tengan menos de 24 horas previo al evento.
+-Las empresas no podrán publicar las canchas si no se llenan todos los campos correctamente.
+
+Acciones disparadoras
+-Cuando se reserva una cancha, se envía al cliente un email con los detalles de la reserva.
+
+Cálculos
+-La seña se calcula como el valor a pagar por un solo jugador.
+
+Inferencias
+-La reserva se confirma cuando se realiza el pago de la seña.

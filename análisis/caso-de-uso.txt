@@ -1,0 +1,20 @@
+Actores:
+-Usuario (Primario)
+
+Pre-condiciones:
+-El usuario debe tener una sesión iniciada como 
+-Se debe tener acceso a internet
+
+Camino básico:
+-El usuario ingresa los parámetros de búsqueda correspondientes a la cancha que quiere alquilar
+-El sistema muestra las canchas disponibles según los parámetros ingresados
+-El usuario elige una de las opciones mostradas
+-El sistema muestra los detalles de la cancha seleccionada
+-El usuario reserva la cancha seleccionada
+-El sistema valida el pago de la reserva
+
+Caminos alternativos:
+
+
+Escenario de éxito:
+-El usuario logra reservar una cancha

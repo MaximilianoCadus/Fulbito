@@ -1,0 +1,13 @@
+empresa = razonSocial + 1{predio}n + cuit
+
+predio = direccion + telefonoPredio + 1{cancha}n
+
+direccion = calle + numCalle 
+
+cancha = tipoPiso + cantJugadores + precio 
+
+cliente= nombreCompleto + telefonoCliente + email   
+
+nombreCompleto = nombre + apellido
+
+reserva =  numRerserva + fecha + hora + precio + seña + QR + canchaReservada
