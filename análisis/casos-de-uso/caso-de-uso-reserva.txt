@@ -1,8 +1,10 @@
+Caso de uso: Reserva de cancha
+
 Actores:
 -Usuario (Primario)
 
 Pre-condiciones:
--El usuario debe tener una sesión iniciada como 
+-El usuario debe tener una sesión iniciada
 -Se debe tener acceso a internet
 
 Camino básico:
