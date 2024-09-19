@@ -17,6 +17,7 @@ Camino básico:
 6- El sistema valida la acción y muestra mensaje de éxito
 
 Caminos alternativos:
+6.1- La reserva realizada no puede ser cancelada
 6.1.1- El sistema no logra validar la acción y muestra mensaje de error
 
 Escenario de fracaso:

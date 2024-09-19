@@ -10,14 +10,15 @@ Pre-condiciones:
 Camino básico:
 1- El usuario ingresa a la sección de datos de perfil
 2- El sistema muestra los datos del perfil
-3- El usuario selecciona el dato a cambiar y lo cambia
+3- El usuario selecciona el dato a cambiar y confirma el cambio
 4- El sistema valida el dato nuevo y muestra mensaje de éxito
 
 Caminos alternativos:
-4.1.1 El sistema no logra validar el datao nuevo y muestra mensaje de error
+4.1 El dato ingresado es inválido
+4.1.1 El sistema no logra validar el dato ingresado y muestra mensaje de error
 
 Escenario de fracaso:
-- El usuario no logra cambiar el dato del perfil
+- El usuario no logra cambiar el dato del perfil ya que lo que ingresó es inválido
 
 Escenario de éxito:
 - El usuario logra cambiar el dato del perfil

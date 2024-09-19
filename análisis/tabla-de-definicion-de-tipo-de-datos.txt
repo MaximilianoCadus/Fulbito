@@ -1,0 +1,16 @@
+| NOMBRE          | DESCRIPCIÓN                                  | LONGITUD | TIPO   | DOMINIO                          |
+|-----------------|----------------------------------------------|----------|--------|----------------------------------|
+| razonSocial     | Nombre de la empresa                        | 60       | Texto  | Texto libre                     |
+| cuit            | Cuit de la empresa                          | 11       | Texto  | Continuo                        |
+| calle           | Calle del predio                            | 20       | Texto  | Texto libre                     |
+| numCalle        | Altura de la calle del predio               | 4        | Número | Continuo                        |
+| telefonoPredio  | Teléfono del predio                         | 13       | Texto  | Continuo                        |
+| cantJugadores   | Cantidad de jugadores máximo por equipo     | 2        | Número | Discreto: { 10, 12, 14, 18, 22 }|
+| precio          | Precio de la cancha                         | 5        | Real   | Discreto                        |
+| nombre          | Nombre del cliente                          | 20       | Texto  | Texto libre                     |
+| apellido        | Apellido del cliente                        | 20       | Texto  | Texto libre                     |
+| numReserva      | Número de la reserva                        | 10       | Número | Continuo                        |
+| fecha           | Fecha de la reserva                         | 8        | Fecha  | Continuo                        |
+| hora            | Hora de la reserva                          | 4        | Hora   | Continuo                        |
+| seña            | Precio de la seña que debe pagar el cliente | 4        | Número | Continuo                        |
+| qr              | QR de la reserva                            | 10       | Texto  | Continuo                        |

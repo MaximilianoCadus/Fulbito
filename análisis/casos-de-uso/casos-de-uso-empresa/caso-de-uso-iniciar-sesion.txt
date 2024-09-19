@@ -12,10 +12,11 @@ Camino básico:
 2- El sistema valida los datos ingresados por el usuario y redirige a la página principal
 
 Caminos alternativos:
+2.1- Los datos ingresados son inválidos
 2.1.1- El sistema no logra validar los datos ingresados por el usuario
 
 Escenario de fracaso:
-- El usuario no logra iniciar sesión
+- El usuario no logra iniciar sesión ya que los datos ingresados son inválidos
 
 Escenario de éxito:
 - El usuario logra iniciar sesión
