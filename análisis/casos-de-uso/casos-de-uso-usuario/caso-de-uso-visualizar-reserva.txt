@@ -1,0 +1,18 @@
+Caso de uso: Visualizar reserva (Usuario/Empresa)
+
+Actores:
+- Usuario/Empresa (Primario)
+
+Pre-condiciones:
+- Se debe tener acceso a internet
+- Se debe tener una sesión iniciada
+- Se debe tener una reserva realizada
+
+Camino básico:
+1- El usuario ingresa a la sección de reservas
+2- El sistema muestra las reservas realizadas
+3- El usuario selecciona una reserva
+4- El sistema muestra los datos de la reserva
+
+Escenario de éxito:
+- El usuario logra visualizar la reserva

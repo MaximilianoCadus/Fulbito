@@ -1,0 +1,25 @@
+Caso de uso: Dar de alta un predio (Empresa)
+
+Actores:
+- Empresa (Primario)
+
+Pre-condiciones:
+- Se debe tener acceso a internet
+- Se debe tener una sesión iniciada
+
+Camino básico:
+1- El usuario ingresa los datos del predio
+2- El sistema valida los datos ingresados
+3- El usuario ingresa la cantidad y datos de cancha
+4- El sistema valida los datos ingresados y muestra mensaje de éxito
+
+Caminos alternativos:
+2.1.1- El sistema no logra validar los datos ingresados y muestra mensaje de error
+4.1.1- El sistema no logra validar los datos ingresados y muestra mensaje de error
+
+
+Escenario de fracaso:
+- El usuario no logra dar de alta un predio
+
+Escenario de éxito:
+- El usuario logra dar de alta un predio

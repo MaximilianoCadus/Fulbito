@@ -11,7 +11,7 @@ Funcionales
 -El sistema debe enviar un correo al cliente pidiendo una valoración sobre el servicio. 
 
 No funcionales
--Que la aplicación tenga un tiempo de respuesta óptimo.
+-Que la aplicación tenga un tiempo de respuesta óptimo de 1 segundo.
 -Que la aplicación tenga una interfaz intuitiva.
 -Que el sistema tenga autenticación de usuarios.
 

@@ -1,0 +1,21 @@
+Caso de uso: Iniciar sesión (Usuario/Empresa)
+
+Actores:
+- Usuario/Empresa (Primario)
+
+Pre-condiciones:
+- Se debe tener acceso a internet
+- Se debe tener un usuario registrado
+
+Camino básico:
+1- El usuario ingresa su mail y contraseña
+2- El sistema valida los datos ingresados por el usuario y redirige a la página principal
+
+Caminos alternativos:
+2.1.1- El sistema no logra validar los datos ingresados por el usuario
+
+Escenario de fracaso:
+- El usuario no logra iniciar sesión
+
+Escenario de éxito:
+- El usuario logra iniciar sesión

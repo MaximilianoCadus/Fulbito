@@ -6,8 +6,6 @@ direccion = calle + numCalle
 
 cancha = tipoPiso + cantJugadores + precioHora 
 
-cliente= nombreCompleto + telefonoCliente + email   
-
-nombreCompleto = nombre + apellido
+cliente= nombre + apellido + telefonoCliente + email   
 
 reserva =  numRerserva + fecha + hora + total + seña + QR + canchaReservada

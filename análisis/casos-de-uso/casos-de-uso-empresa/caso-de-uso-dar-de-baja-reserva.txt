@@ -1,0 +1,26 @@
+Caso de uso: Dar de baja reserva (Usuario/Empresa)
+
+Actores:
+- Usuario/Empresa (Primario)
+
+Pre-condiciones:
+- Se debe tener acceso a internet
+- Se debe tener una sesión iniciada
+- Se debe tener una reserva realizada
+
+Camino básico:
+1- El usuario ingresa a la sección de reservas
+2- El sistema muestra las reservas realizadas
+3- El usuario selecciona una reserva
+4- El sistema muestra los datos de la reserva
+5- El usuario selecciona la opción de dar de baja reserva
+6- El sistema valida la acción y muestra mensaje de éxito
+
+Caminos alternativos:
+6.1.1- El sistema no logra validar la acción y muestra mensaje de error
+
+Escenario de fracaso:
+- El usuario no logra dar de baja la reserva
+
+Escenario de éxito:
+- El usuario logra dar de baja la reserva
