@@ -1,7 +1,7 @@
-Caso de uso: Cambiar datos de perfil (Usuario/Empresa)
+Caso de uso: Cambiar datos de perfil
 
 Actores:
-- Usuario/Empresa (Primario)
+- Usuario jugador (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet

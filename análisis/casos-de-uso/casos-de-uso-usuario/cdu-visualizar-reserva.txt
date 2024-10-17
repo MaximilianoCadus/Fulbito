@@ -1,7 +1,7 @@
-Caso de uso: Visualizar reserva (Usuario/Empresa)
+Caso de uso: Visualizar reserva
 
 Actores:
-- Usuario/Empresa (Primario)
+- Usuario jugador (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet

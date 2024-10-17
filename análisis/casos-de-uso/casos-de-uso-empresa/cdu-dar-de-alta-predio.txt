@@ -1,7 +1,7 @@
-Caso de uso: Dar de alta un predio (Empresa)
+Caso de uso: Dar de alta un predio
 
 Actores:
-- Empresa (Primario)
+- Usuario empresa (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet

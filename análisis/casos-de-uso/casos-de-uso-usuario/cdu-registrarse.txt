@@ -1,7 +1,7 @@
-Caso de uso: Registrarse (Usuario/Empresa)
+Caso de uso: Registrarse
 
 Actores:
-- Usuario/Empresa (Primario)
+- Usuario jugador (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet

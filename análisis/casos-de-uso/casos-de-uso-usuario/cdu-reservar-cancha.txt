@@ -1,7 +1,7 @@
-Caso de uso: Reservar cancha (Usuario)
+Caso de uso: Reservar cancha
 
 Actores:
--Usuario (Primario)
+-Usuario jugador(Primario)
 
 Pre-condiciones:
 - Se debe tener una sesión iniciada

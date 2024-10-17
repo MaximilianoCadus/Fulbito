@@ -1,7 +1,7 @@
-Caso de uso: Iniciar sesión (Usuario/Empresa)
+Caso de uso: Iniciar sesión
 
 Actores:
-- Usuario/Empresa (Primario)
+- Usuario empresa (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet
