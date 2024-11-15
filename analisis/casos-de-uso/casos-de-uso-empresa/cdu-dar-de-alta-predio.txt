@@ -5,23 +5,23 @@ Actores:
 
 Pre-condiciones:
 - Se debe tener acceso a internet
-- Se debe tener una sesiÛn iniciada
+- Se debe tener una sesi√≥n iniciada
 
-Camino b·sico:
+Camino b√°sico:
 1- El usuario ingresa los datos del predio
 2- El sistema valida los datos ingresados
 3- El usuario ingresa la cantidad y datos de cancha
-4- El sistema valida los datos ingresados y muestra mensaje de Èxito
+4- El sistema valida los datos ingresados y muestra mensaje de √©xito
 
 Caminos alternativos:
-2.1- Los datos ingresados son inv·lidos
+2.1- Los datos ingresados son inv√°lidos
 2.1.1- El sistema no logra validar los datos ingresados y muestra mensaje de error
-4.1- Los datos ingresados son inv·lidos
+4.1- Los datos ingresados son inv√°lidos
 4.1.1- El sistema no logra validar los datos ingresados y muestra mensaje de error
 
 
 Escenario de fracaso:
-- El usuario no logra dar de alta un predio ya que los datos ingresados son inv·lidos
+- El usuario no logra dar de alta un predio ya que los datos ingresados son inv√°lidos
 
-Escenario de Èxito:
+Escenario de √©xito:
 - El usuario logra dar de alta un predio

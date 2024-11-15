@@ -1,27 +1,27 @@
 Caso de uso: Dar de baja reserva
 
 Actores:
-- Usuario jugador (Primario)
+- Usuario empresa (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet
-- Se debe tener una sesi髇 iniciada
+- Se debe tener una sesi贸n iniciada
 - Se debe tener una reserva realizada
 
-Camino b醩ico:
-1- El usuario ingresa a la secci髇 de reservas
+Camino b谩sico:
+1- El usuario ingresa a la secci贸n de reservas
 2- El sistema muestra las reservas realizadas
 3- El usuario selecciona una reserva
 4- El sistema muestra los datos de la reserva
-5- El usuario selecciona la opci髇 de dar de baja reserva
-6- El sistema valida la acci髇 y muestra mensaje de 閤ito
+5- El usuario selecciona la opci贸n de dar de baja reserva
+6- El sistema valida la acci贸n y muestra mensaje de 茅xito
 
 Caminos alternativos:
 6.1- La reserva realizada no puede ser cancelada
-6.1.1- El sistema no logra validar la acci髇 y muestra mensaje de error
+6.1.1- El sistema no logra validar la acci贸n y muestra mensaje de error
 
 Escenario de fracaso:
 - El usuario no logra dar de baja la reserva
 
-Escenario de 閤ito:
+Escenario de 茅xito:
 - El usuario logra dar de baja la reserva

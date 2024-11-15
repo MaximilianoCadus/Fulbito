@@ -5,20 +5,20 @@ Actores:
 
 Pre-condiciones:
 - Se debe tener acceso a internet
-- Se debe tener una sesiÛn iniciada
+- Se debe tener una sesi√≥n iniciada
 
-Camino b·sico:
-1- El usuario ingresa a la secciÛn de datos de perfil
+Camino b√°sico:
+1- El usuario ingresa a la secci√≥n de datos de perfil
 2- El sistema muestra los datos del perfil
 3- El usuario selecciona el dato a cambiar y confirma el cambio
-4- El sistema valida el dato nuevo y muestra mensaje de Èxito
+4- El sistema valida el dato nuevo y muestra mensaje de √©xito
 
 Caminos alternativos:
-4.1 El dato ingresado es inv·lido
+4.1 El dato ingresado es inv√°lido
 4.1.1 El sistema no logra validar el dato ingresado y muestra mensaje de error
 
 Escenario de fracaso:
-- El usuario no logra cambiar el dato del perfil ya que lo que ingresÛ es inv·lido
+- El usuario no logra cambiar el dato del perfil ya que lo que ingres√≥ es inv√°lido
 
-Escenario de Èxito:
+Escenario de √©xito:
 - El usuario logra cambiar el dato del perfil

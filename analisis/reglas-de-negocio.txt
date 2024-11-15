@@ -1,0 +1,14 @@
+Hecho
+- El usuario jugador reserva canchas en un predio
+- El usuario empresa da de alta predios
+- El usuario empresa da de alta canchas en un predio
+- El usuario jugador abona la totalidad de la cancha en condición de reserva
+- La reserva se confirma cuando se realiza el pago de la cancha
+- El usuario jugador puede relizar una o más reservas
+
+Restricciones
+- No se pueden cancelar reservas con menos de 24 horas de anticipación
+
+Acciones disparadoras
+- Al finalizar el horario de la reserva, se le pide al usuario una valoración del servicio
+- Si se cancela una reserva, se notifica tanto al usuario empresa como al usuario jugador por email
