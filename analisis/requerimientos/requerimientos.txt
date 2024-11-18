@@ -1,7 +1,7 @@
 Funcionales
 - El sistema debe permitir registrar usuarios jugador
 - El sistema debe permitir registrar usuarios empresa
-- El sistema debe premitir reservar canchas de fútbol
+- El sistema debe permitir reservar canchas de fútbol
 - El sistema debe permitir editar el perfil del usuario
 - El sistema debe mostrar los distintos predios
 - El sistema debe mostrar las distintas canchas de fútbol pertenecientes a un predio
