@@ -1,23 +1,25 @@
 Funcionales
-- El sistema debe permitir registrar usuarios jugador
-- El sistema debe permitir registrar usuarios empresa
-- El sistema debe permitir reservar canchas de fútbol
-- El sistema debe permitir editar el perfil del usuario
-- El sistema debe mostrar los distintos predios
-- El sistema debe mostrar las distintas canchas de fútbol pertenecientes a un predio
-- El sistema debe ofrecer Mercado Pago como medio de pago
-- El sistema debe permitir buscar canchas según cantidad de jugadores y tipo de piso
-- El sistema debe permitir cancelar una reserva con anticipación mayor a 24hs
-- El sistema debe enviar un correo al usuario jugador que realizó la reserva con los detalles de la misma
-- El sistema debe enviar un correo al usuario empresa la reserva de un usuario jugador con los detalles de la misma
-- El sistema debe enviar un correo al usuario jugador pidiendo una valoración sobre el servicio
-- El sistema debe enviar un correo mensual al usuario empresa pidiendo una valoración sobre el servicio
+- El sistema debe registrar jugadores
+- El sistema debe registrar empresas
+- El sistema debe registrar predios asociados a empresas
+- El sistema debe registrar canchas asociadas a predios
+- El sistema debe permitir modificar el perfil del jugador
+- El sistema debe permitir modificar el perfil de la empresa
+- El sistema debe permitir modificar el perfil del predio
+- El sistema debe permitir modificar la información de la cancha
+- El sistema debe mostrar canchas acorde a parámetros de búsqueda
+- El sistema debe permitir reservar canchas
+- El sistema debe permitir cancelar reservas
+- El sistema debe enviar un correo al jugador que realiza una reserva con los detalles de la misma
+- El sistema debe enviar un correo al predio que recibe una reserva con los detalles de la misma
+- El sistema debe enviar una encuesta por mail al jugador pidiendo una valoración sobre el servicio al finalizar el horario de la reserva
+- El sistema debe enviar una encuesta mensual a la empresa pidiendo una valoración sobre el servicio
 
 No funcionales
 - El sistema debe tener un tiempo de respuesta óptimo de 1 segundo
 - El sistema debe tener una interfaz intuitiva
 
 De dominio
-- Los usuarios pertenecen a una de dos categorías (jugador o empresa)
-- Los usuarios jugador van a poder reservar canchas de fútbol
-- Los usuarios empresa van a poder publicar sus predios y canchas de fútbol
+- Los usuarios pertenecen a una de tres categorías (jugador - empresa - predio)
+- Los jugadores van a poder reservar canchas de fútbol
+- Las empresas van a poder publicar sus predios y canchas de fútbol
