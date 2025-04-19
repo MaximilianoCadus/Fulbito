@@ -1,13 +1,29 @@
-| NOMBRE          | DESCRIPCIÓN                                 | LONGITUD | TIPO   | DOMINIO                         |
-|-----------------|---------------------------------------------|----------|--------|---------------------------------|
-| razonSocial     | Nombre de la empresa                        | 60       | Texto  | Texto libre                     |
-| cuit            | Cuit de la empresa                          | 11       | Texto  | Continuo                        |
-| calle           | Calle del predio                            | 20       | Texto  | Texto libre                     |
-| altura          | Altura de la calle del predio               | 4        | Número | Continuo                        |
-| cantJugadores   | Cantidad de jugadores máximo por cancha     | 2        | Número | Discreto: { 10, 12, 14, 18, 22 }|
-| precio          | Precio de la cancha                         | 5        | Real   | Discreto                        |
-| nombre          | Nombre del cliente                          | 20       | Texto  | Texto libre                     |
-| apellido        | Apellido del cliente                        | 20       | Texto  | Texto libre                     |
-| id              | ID de la reserva                            | 16       | Número | Continuo                        |
-| fecha           | Fecha de la reserva                         | 8        | Fecha  | Continuo                        |
-| hora            | Hora de la reserva                          | 4        | Hora   | Continuo                        |
+| NOMBRE              | DESCRIPCIÓN                         | LONGITUD | TIPO           | DOMINIO                                      |
+|---------------------|-------------------------------------|----------|----------------|----------------------------------------------|
+| nombre              | Nombre del jugador                  | 50       | Texto          | Texto libre                                  |
+| apellido            | Apellido del jugador                | 50       | Texto          | Texto libre                                  |
+| nroCelular          | Número de celular del jugador       | 15       | Texto          | E.164                                        |
+| email               | Email                               | 254      | Texto          | Formato email válido                         |
+| contraseña          | Hash de la contraseña               | 60       | Texto          | Hash de longitud fija                        |
+| id                  | ID genérico                         | 10       | Número         | Continuo                                     |
+| cancha              | ID de la cancha                     | 10       | Número         | Continuo                                     |
+| direccion           | ID de la dirección                  | 10       | Número         | Continuo                                     |
+| estadoReserva       | Estado de la reserva                | 10       | Texto          | Discreto: {pendiente, confirmada, cancelada} |
+| cantJugadores       | Cantidad de jugadores por cancha    | 2        | Número         | Discreto: {5,6,7,8,9,11}                     |
+| tipoPiso            | Tipo de piso de la cancha           | 10       | Texto          | Discreto: {sintetico, cesped, salon}         |
+| fecha               | Fecha de la reserva                 | 10       | Fecha          | Continuo                                     |
+| hora                | Hora de la reserva                  | 8        | Hora           | Continuo                                     |
+| precio              | Precio de la reserva                | 10       | Decimal(10,2)  | Continuo                                     |
+| razonSocial         | Razón social de la empresa          | 100      | Texto          | Texto libre                                  |
+| cuit                | CUIT de la empresa                  | 11       | Texto          | Dígitos                                      |
+| nombrePredio        | Nombre del predio                   | 100      | Texto          | Texto libre                                  |
+| horarioDesde        | Hora de inicio del horario          | 8        | Hora           | Continuo                                     |
+| horarioHasta        | Hora de fin del horario             | 8        | Hora           | Continuo                                     |
+| calle               | Nombre de la calle                  | 100      | Texto          | Texto libre                                  |
+| altura              | Altura de la calle                  | 10       | Texto          | Dígitos                                      |
+| piso                | Piso del edificio                   | 10       | Texto          | Texto libre                                  |
+| dpto                | Departamento                        | 10       | Texto          | Texto libre                                  |
+| localidad           | Localidad del predio                | 100      | Texto          | Texto libre                                  |
+| reservasConfirmadas | Cantidad de reservas confirmadas    | 5        | Número         | Continuo                                     |
+| dineroSeña          | Monto de señal                      | 10       | Decimal(10,2)  | Continuo                                     |
+| dineroTotal         | Monto total facturado               | 10       | Decimal(10,2)  | Continuo                                     |
