@@ -1,0 +1,22 @@
+Caso de uso: Mostrar reporte
+
+Actores:
+- Empresa (Primario)
+
+Pre-condiciones:
+- Se debe tener una sesión iniciada
+- Se debe tener acceso a internet
+
+Camino básico:
+1- El usuario ingresa los parámetros para el reporte correspondiente
+2- El sistema muestra el reporte según los parámetros ingresados
+
+Caminos alternativos:
+2.1- No se encuentran reportes disponibles según los parámetros
+2.1.1- El sistema no encuentra disponible reportes según los parámetros ingresados
+
+Escenario de fracaso:
+- El usuario no logra imprimir un reporte ya que no se encuentra disponible
+
+Escenario de éxito:
+- El usuario logra imprimir un reporte
