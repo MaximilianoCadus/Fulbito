@@ -20,5 +20,6 @@ Restricciones
 - No se devuelve el dinero de reservas que pretendan ser canceladas cuyas señas ya fueron abonadas
 
 Acciones disparadoras
-- Al finalizar el horario de la reserva, se le pide al jugador una valoración del servicio
+- Cuando se realiza una reserva, se envía un correo tanto al predio como al jugador
+- Cuando se confirma una reserva, se envia un correo tanto al predio como al jugador
 - Si se cancela una reserva, se notifica tanto al predio como al jugador
