@@ -1,7 +1,7 @@
 Caso de uso: Dar de baja reserva
 
 Actores:
-- Usuario empresa (Primario)
+- Predio (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet

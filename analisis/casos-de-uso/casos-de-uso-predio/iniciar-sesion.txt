@@ -1,7 +1,7 @@
 Caso de uso: Iniciar sesión
 
 Actores:
-- Empresa (Primario)
+- Predio (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet
