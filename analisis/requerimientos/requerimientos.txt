@@ -12,6 +12,7 @@ Funcionales
 - El sistema debe enviar un correo al predio que recibe una reserva con los detalles de la misma
 - El sistema debe enviar una encuesta por mail al jugador pidiendo una valoración sobre el servicio al finalizar el horario de la reserva
 - El sistema debe enviar una encuesta mensual a la empresa pidiendo una valoración sobre el servicio
+- El sistema debe mostrar reportes por predio de las reservas y el dinero
 
 No funcionales
 - El sistema debe tener un tiempo de respuesta óptimo de 1 segundo
