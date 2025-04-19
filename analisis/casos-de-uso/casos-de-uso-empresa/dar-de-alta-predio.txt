@@ -1,4 +1,4 @@
-Caso de uso: Dar de alta un predio
+Caso de uso: Dar de alta predio
 
 Actores:
 - Empresa (Primario)
@@ -8,16 +8,16 @@ Pre-condiciones:
 - Se debe tener una sesión iniciada
 
 Camino básico:
-1- El usuario ingresa los datos del predio
-2- El sistema valida los datos ingresados
-3- El usuario ingresa la cantidad y datos de cancha
-4- El sistema valida los datos ingresados y muestra mensaje de éxito
+1- El usuario ingresa a la sección de predios
+2- El sistema muestra los predios
+3- El usuario selecciona dar de alta nuevo predio
+4- El sistema muestra los datos necesarios para el nuevo predio
+5- El usuario ingresa los datos del predio
+6- El sistema valida el predio y muestra mensaje de éxito
 
 Caminos alternativos:
-2.1- Los datos ingresados son inválidos
-2.1.1- El sistema no logra validar los datos ingresados y muestra mensaje de error
-4.1- Los datos ingresados son inválidos
-4.1.1- El sistema no logra validar los datos ingresados y muestra mensaje de error
+6.1- El predio ingresado es inválido
+6.1.1- El sistema no logra validar el predio y muestra mensaje de error
 
 
 Escenario de fracaso:
