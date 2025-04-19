@@ -1,0 +1,27 @@
+Caso de uso: Modificar cancha
+
+Actores:
+- Predio (Primario)
+
+Pre-condiciones:
+- Se debe tener acceso a internet
+- Se debe tener una sesión iniciada
+- Se debe tener una cancha registrada
+
+Camino básico:
+1- El usuario ingresa a la sección de canchas
+2- El sistema muestra las canchas
+3- El usuario selecciona la cancha a modificar
+4- El sistema muestra los datos de la cancha
+5- El usuario selecciona el dato a cambiar y confirma el cambio
+6- El sistema valida el dato nuevo y muestra mensaje de éxito
+
+Caminos alternativos:
+5.1 El dato ingresado es inválido
+5.1.1 El sistema no logra validar el dato ingresado y muestra mensaje de error
+
+Escenario de fracaso:
+- El usuario no logra modificar la cancha ya que lo que ingresó es inválido
+
+Escenario de éxito:
+- El usuario logra modificar la cancha
