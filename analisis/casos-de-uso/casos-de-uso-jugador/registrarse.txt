@@ -1,7 +1,7 @@
 Caso de uso: Registrarse
 
 Actores:
-- Usuario jugador (Primario)
+- Jugador (Primario)
 
 Pre-condiciones:
 - Se debe tener acceso a internet
