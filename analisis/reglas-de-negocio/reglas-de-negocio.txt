@@ -21,5 +21,5 @@ Restricciones
 
 Acciones disparadoras
 - Cuando se realiza una reserva, se envía un correo tanto al predio como al jugador
-- Cuando se confirma una reserva, se envia un correo tanto al predio como al jugador
-- Si se cancela una reserva, se notifica tanto al predio como al jugador
+- Cuando se confirma una reserva, se envía un correo tanto al predio como al jugador
+- Cuando se cancela una reserva, se envía un correo tanto al predio como al jugador
