@@ -1,0 +1,26 @@
+Caso de uso: Dar de alta cancha
+
+Actores:
+- Predio (Primario)
+
+Pre-condiciones:
+- Se debe tener acceso a internet
+- Se debe tener una sesión iniciada
+
+Camino básico:
+1- El usuario ingresa a la sección de canchas
+2- El sistema muestra las canchas
+3- El usuario selecciona dar de alta nueva cancha
+4- El sistema muestra los datos necesarios para la nueva cancha
+5- El usuario ingresa los datos de la cancha
+6- El sistema valida la cancha y muestra mensaje de éxito
+
+Caminos alternativos:
+6.1- La cancha ingresada es inválida
+6.1.1- El sistema no logra validar la cancha y muestra mensaje de error
+
+Escenario de fracaso:
+- El usuario no logra dar de alta una cancha ya que los datos ingresados son inválidos
+
+Escenario de éxito:
+- El usuario logra dar de alta una cancha
