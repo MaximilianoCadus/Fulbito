@@ -1,11 +1,23 @@
-empresa = razonSocial + cuit + 1{predio}n
+jugador = nombre + apellido + nroCelular + email + contraseña + 0{reserva}n
 
-predio = direccion + 1{cancha}n
+reserva = @id + cancha + direccion + estadoReserva
 
-direccion = calle + altura 
+estadoReserva = [pendiente | confirmada | cancelada]
 
-cancha = tipoPiso + cantJugadores + precio 
+cancha = @id + cantJugadores + tipoPiso + 0{fechaHora}n
 
-cliente = nombre + apellido + telefono + email   
+cantJugadores = [5 | 6 | 7 | 8 | 9 | 11]
 
-reserva =  id + fecha + hora + predioReservado + canchaReservada
+tipoPiso = [sintetico | cesped | salon]
+
+fechaHora = fecha + hora + precio
+
+empresa = razonSocial + cuit + direccion + email + contraseña + 0{predio}n
+
+predio = nombrePredio + direccion + horario + email + contraseña + 0{cancha}n
+
+horario = 1{horario desde + horario hasta}n
+
+direccion = calle + altura + (piso) + (dpto) + localidad
+
+reporte = nombrePredio + reservasConfirmadas + dineroSeña + dineroTotal
