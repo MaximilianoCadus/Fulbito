@@ -3,7 +3,7 @@ Funcionales
 - El sistema debe registrar empresas
 - El sistema debe registrar predios asociados a empresas
 - El sistema debe registrar canchas asociadas a predios
-- El sistema debe permitir modificar el perfil del usuario
+- El sistema debe permitir modificar el perfil de los tres tipos de usuarios: empresa, predio, jugador
 - El sistema debe permitir modificar la información de la cancha
 - El sistema debe mostrar canchas acorde a parámetros de búsqueda
 - El sistema debe permitir reservar canchas
