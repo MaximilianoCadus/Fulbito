@@ -1,14 +1,24 @@
 Hecho
-- El usuario jugador reserva canchas en un predio
-- El usuario empresa da de alta predios
-- El usuario empresa da de alta canchas en un predio
-- El usuario jugador abona la totalidad de la cancha en condición de reserva
-- La reserva se confirma cuando se realiza el pago de la cancha
-- El usuario jugador puede relizar una o más reservas
+- Jugadores reservan canchas en predios
+- Jugadores pueden tener una o más reservas de canchas
+- Jugadores no pueden tener más de una reserva de cancha en un mismo horario
+- Empresas tienen uno o más predios
+- Predios tienen una o más canchas
+- Las canchas tienen distintos tipos de pisos
+- Las canchas tienen distintas cantidad de jugadores máximos
+- Las canchas tienen franjas horarias en las que pueden ser reservadas
+- Las canchas tienen distintos precios dependiendo el día u horario en las que pueden ser reservadas
+- Jugadores abonan una seña en condición de reserva
+- La seña es equivalente al precio total de la cancha dividido la cantidad de jugadores de la cancha
+- La forma de pago de la seña se coordina con el predio
+- La reserva tiene tres estados: pendiente, confirmada, cancelada
+- La reserva pendiente tiene hasta 24hs para realizar el pago de la seña
+- La reserva pendiente cuya seña no es abonada en tiempo, es cancelada
+- La reserva pendiente cuya seña es abonada en tiempo, es confirmada
 
 Restricciones
-- No se pueden cancelar reservas con menos de 24 horas de anticipación
+- No se devuelve el dinero de reservas que pretendan ser canceladas cuyas señas ya fueron abonadas
 
 Acciones disparadoras
-- Al finalizar el horario de la reserva, se le pide al usuario una valoración del servicio
-- Si se cancela una reserva, se notifica tanto al usuario empresa como al usuario jugador por email
+- Al finalizar el horario de la reserva, se le pide al jugador una valoración del servicio
+- Si se cancela una reserva, se notifica tanto al predio como al jugador
