@@ -15,7 +15,7 @@ Camino básico:
 5- El usuario selecciona el día y horario para reservar la cancha
 6- El sistema muestra el total de la cancha en el día y horario seleccionado junto con el valor de la seña
 7- El usuario selecciona en realizar reserva
-8- El sistema muestra mensaje de éxito y muestra mensaje de que pronto se comunicarán para realizar el pago de la seña
+8- El sistema muestra mensaje de éxito y de que pronto se comunicarán para realizar el pago de la seña; envía correo con los datos de la reserva al jugador y al predio
 
 Caminos alternativos:
 2.1- No se encuentran canchas disponibles según los parámetros
