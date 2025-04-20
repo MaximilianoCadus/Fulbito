@@ -8,6 +8,7 @@ Funcionales
 - El sistema debe mostrar canchas acorde a parámetros de búsqueda
 - El sistema debe permitir reservar canchas
 - El sistema debe permitir cancelar reservas
+- El sistema debe permitir subir comprobante del pago de la seña de la reserva
 - El sistema debe enviar un correos al jugador y al predio cuando se realiza una reserva o cuando cambia el estado de la misma
 - El sistema debe mostrar reportes por predio de las reservas y el dinero
 
