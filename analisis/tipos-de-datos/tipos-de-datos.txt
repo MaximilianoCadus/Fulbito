@@ -13,7 +13,7 @@
 | tipoPiso            | Tipo de piso de la cancha           | 10       | Texto          | Discreto: {sintetico, cesped, salon}         |
 | fecha               | Fecha de la reserva                 | 10       | Fecha          | Continuo                                     |
 | hora                | Hora de la reserva                  | 8        | Hora           | Continuo                                     |
-| precio              | Precio de la reserva                | 10       | Decimal(10,2)  | Continuo                                     |
+| precio              | Precio de la reserva                | 10       | Decimal(18,2)  | Continuo                                     |
 | razonSocial         | Razón social de la empresa          | 100      | Texto          | Texto libre                                  |
 | cuit                | CUIT de la empresa                  | 11       | Texto          | Dígitos                                      |
 | nombrePredio        | Nombre del predio                   | 100      | Texto          | Texto libre                                  |
@@ -25,5 +25,5 @@
 | dpto                | Departamento                        | 10       | Texto          | Texto libre                                  |
 | localidad           | Localidad del predio                | 100      | Texto          | Texto libre                                  |
 | reservasConfirmadas | Cantidad de reservas confirmadas    | 5        | Número         | Continuo                                     |
-| dineroSeña          | Monto de señal                      | 10       | Decimal(10,2)  | Continuo                                     |
-| dineroTotal         | Monto total facturado               | 10       | Decimal(10,2)  | Continuo                                     |
+| dineroSeña          | Monto de señal                      | 10       | Decimal(18,2)  | Continuo                                     |
+| dineroTotal         | Monto total facturado               | 10       | Decimal(18,2)  | Continuo                                     |
