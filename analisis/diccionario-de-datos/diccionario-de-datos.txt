@@ -1,4 +1,8 @@
-jugador = nombre + apellido + nroCelular + email + contraseña + 0{reserva}n
+usuario = email + contraseña + tipoUsuario
+
+tipoUsuario = [jugador | empresa | predio]
+
+jugador = nombre + apellido + nroCelular + 0{reserva}n
 
 reserva = @id + cancha + direccion + estadoReserva
 
@@ -12,9 +16,9 @@ tipoPiso = [sintetico | cesped | salon]
 
 fechaHora = fecha + hora + precio
 
-empresa = razonSocial + cuit + direccion + email + contraseña + 0{predio}n
+empresa = razonSocial + cuit + direccion + 0{predio}n
 
-predio = nombrePredio + direccion + horario + email + contraseña + 0{cancha}n
+predio = nombrePredio + direccion + horario + 0{cancha}n
 
 horario = 1{horario desde + horario hasta}n
 
