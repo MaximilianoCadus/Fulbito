@@ -1,8 +1,8 @@
-<h1 align="center"> Fulbito Ya! </h1>
+<h1 align="center"> Fulbito </h1>
 
 ## Descripción del Proyecto
 
-Fulbito Ya! es un sistema diseñado para facilitar la reserva de canchas de fútbol y la gestión de predios. Este proyecto es parte de la materia Práctica Profesionalizante I del Instituto Zona Oeste.
+Fulbito es un sistema diseñado para facilitar la reserva de canchas de fútbol y la gestión de predios. Este proyecto es parte de la materia Práctica Profesionalizante I del Instituto Zona Oeste.
 
 ## Integrantes
 
