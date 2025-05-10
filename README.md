@@ -1,4 +1,4 @@
-<h1 align="center"> Fulbito </h1>
+# Fulbito
 
 ## Descripción del Proyecto
 
