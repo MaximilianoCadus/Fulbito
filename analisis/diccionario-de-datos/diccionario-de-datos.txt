@@ -4,7 +4,7 @@ tipoUsuario = [jugador | empresa | predio]
 
 jugador = @id + nombre + apellido + nroCelular + 0{reserva}n
 
-reserva = @id + cancha + direccion + estadoReserva
+reserva = @id + cancha + estadoReserva
 
 estadoReserva = [pendiente | confirmada | cancelada]
 
