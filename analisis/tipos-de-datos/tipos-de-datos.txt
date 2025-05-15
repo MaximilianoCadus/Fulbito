@@ -24,6 +24,3 @@
 | piso                | Piso del edificio                   | 10       | Texto          | Texto libre                                  |
 | dpto                | Departamento                        | 10       | Texto          | Texto libre                                  |
 | localidad           | Localidad del predio                | 100      | Texto          | Texto libre                                  |
-| reservasConfirmadas | Cantidad de reservas confirmadas    | 5        | Número         | Continuo                                     |
-| dineroSeña          | Monto de señal                      | 10       | Decimal(18,2)  | Continuo                                     |
-| dineroTotal         | Monto total facturado               | 10       | Decimal(18,2)  | Continuo                                     |

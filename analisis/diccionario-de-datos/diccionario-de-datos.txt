@@ -23,5 +23,3 @@ predio = @id + nombrePredio + direccion + horario + 0{cancha}n
 horario = 1{horario desde + horario hasta}n
 
 direccion = calle + altura + (piso) + (dpto) + localidad
-
-reporte = nombrePredio + reservasConfirmadas + dineroSeña + dineroTotal
